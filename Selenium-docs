@@ -1,6 +1,8 @@
 1.Explain the concept of WebDriver's Page Object Model (POM) and its advantages
 
-The Page Object Model (POM) is a design pattern used in test automation with Selenium WebDriver. It involves creating separate classes for each web page of an application, encapsulating the elements and functionality of that page within the class. 
+The Page Object Model (POM) is a design pattern used in test automation with Selenium WebDriver. 
+It involves creating separate classes for each web page of an application, encapsulating the elements 
+and functionality of that page within the class. 
 
 Advantages of POM:
 #Modularity: Pages are represented as classes, making code more organized and modular.
