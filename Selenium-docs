@@ -1,0 +1,119 @@
+1.Explain the concept of WebDriver's Page Object Model (POM) and its advantages
+
+The Page Object Model (POM) is a design pattern used in test automation with Selenium WebDriver. It involves creating separate classes for each web page of an application, encapsulating the elements and functionality of that page within the class. 
+
+Advantages of POM:
+#Modularity: Pages are represented as classes, making code more organized and modular.
+#Reusable: Page classes can be reused across multiple tests, reducing redundancy and maintenance efforts.
+#Readability: Enhances code readability and makes it easier to understand the structure of the application under test.
+# Maintenance: If a web page changes, you only need to update the corresponding page class, rather than making changes across multiple test scripts.
+# Encapsulation: Helps in encapsulating the page's functionality, making it easier to manage and update.
+
+Overall, POM promotes a more structured, maintainable, and scalable approach to test automation.
+
+_______
+
+2. What is difference between driverclose() vs driverquit()?
+
+driver.close() closes the current browser window or tab, while driver.quit() terminates the entire WebDriver session and closes all associated browser windows or tabs
+
+
+_______
+
+3. why gettext() is used in selenium?
+
+the getText() method is used to retrieve the visible text content of a web element. This method is particularly useful for extracting text from elements like paragraphs, headings, labels, buttons, etc., which are displayed on a web page.
+
+
+_______
+
+4.  What is the purpose of the Actions class in Selenium WebDriver?
+
+The Actions class in Selenium WebDriver is used for performing complex user interactions such as mouse movements, keyboard actions, drag-and-drop operations, and context-click (right-click) actions. It provides a way to chain multiple actions together to create more complex interactions that may not be possible with simple WebDriver commands alone.
+
+_______
+
+ 5. Explain the concept of cross-browser testing in Selenium WebDriver.
+
+Cross-browser testing in Selenium WebDriver refers to the practice of testing web applications across different web browsers to ensure that they function correctly and consistently across various browser environments. The goal is to identify and address any compatibility issues or discrepancies in behavior that may arise due to differences in how different browsers render and execute web content.
+
+________
+
+6.What are the methods available in select class?
+
+
+• selectByValue();
+• selectByVisibleText();
+• selectByIndex();
+• getOptions();
+ •getAllSelectedoptions();
+ •getFirstselectedoptions();
+• isMultiple();
+• deSelectByValue();
+ •deSelectByVisibleText()
+• deSelectByIndex();
+• deSelectAll()
+
+_________
+
+7.What are the difference between / and // ?
+
+
+\:
+---
+• It means absolute Xpath
+• It is used to find path from root element <html> tagname to desired WebElement tagname
+
+\\:
+----
+• *It means Relative Xpath \\
+• *Using this,we find the path from the desired WebElement's tagname only
+
+__________
+
+8.What are the locators available in selenium?
+
+• id
+• classname
+• name
+• Xpath
+• CSSselector
+• linkText
+• partialLinkText
+• tagname
+
+__________
+
+9.What are the methods available in WebDriver?
+
+• close()
+• findElement()
+• findElements()
+• get()
+• getTitle()
+• getCurrentUrl()
+• manage()
+• quit()
+• switchTo()
+
+__________
+
+10.What is the use of WebDriver?
+
+• It is mainly used for providing the connection between the browser and local system.
+• It acts as a bridge.
+
+___________
+
+11.What are the locators available in selenium?
+
+• id
+• classname
+• name
+• Xpath
+• CSSselector
+• linkText
+• partialLinkText
+• tagname
+___________
+
